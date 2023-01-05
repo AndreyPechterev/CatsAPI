@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #edeef0;
+}
+
+h2 {
+  margin-top: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  height: 100%;
+  width: 100%;
+}
+
+.card {
+  width: 700px;
+  height: 700px;
+  padding: 16px;
+  background-color: #ffffff;
+  margin: 16px;
+  box-shadow: 5px 5px 15px grey;
+  border-radius: 10px;
+}
+
+.btn {
+  padding: 10px;
+}
